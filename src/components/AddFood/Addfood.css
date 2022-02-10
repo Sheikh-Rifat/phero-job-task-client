@@ -1,0 +1,37 @@
+.add-new-food-section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 60px;
+}
+
+.add-new-food-section-title h2 {
+  text-transform: capitalize;
+  font-size: 30px;
+  text-align: center;
+}
+
+.add-food-area {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.add-food-form-design {
+  width: 100%;
+}
+.add-food-form-design label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.add-food-form-design input[type="text"],
+.add-food-form-design input[type="number"],
+.add-food-form-design input[list="category"] {
+  width: 100%;
+  padding: 15px 0 15px 15px;
+  border-radius: 7px;
+  border: 2px solid #eee;
+  outline: none;
+}

@@ -1,0 +1,60 @@
+#add-student-form {
+  margin-top: 30px;
+}
+
+.add-student-form-design {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.single-add-student-input-area {
+  width: 47.5%;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.single-add-student-input-area label {
+  color: gray;
+}
+
+.single-add-student-input-area input {
+  display: block;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px 0 10px 15px;
+  margin-top: 3px;
+  border-radius: 5px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 18px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-image: linear-gradient(to right top, #23b69b, #15c4df);
+  color: #fff;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.list-btn {
+  display: inline-block;
+  padding: 15px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-image: linear-gradient(to right top, #23b69b, #15c4df);
+  color: #fff;
+  margin: 20px 5px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.btn:hover {
+  background-image: linear-gradient(to right top, #1d9680, #129cb1);
+  color: #fff;
+}

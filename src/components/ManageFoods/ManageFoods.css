@@ -1,0 +1,15 @@
+.pagination button {
+  padding: 7px 20px;
+  background-image: linear-gradient(to right top, #49d8be, #20d6f1);
+  font-size: 14px;
+  margin-left: 3px;
+  border-radius: 7px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+}
+
+#active-page {
+  background-image: linear-gradient(to right top, #567475, #0b6d7c);
+  color: #fff;
+}
