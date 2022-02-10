@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/*" element={<Home />}>
+        <Route path="/" element={<Home />}>
           <Route path="add-food" element={<AddFood />} />
           <Route path="manage-all-foods" element={<ManageFoods />} />
           <Route path="add-student" element={<AddStudent />} />

@@ -46,6 +46,9 @@ const SideBar = () => {
             >
               <div className="dashboard-details">
                 <div className="">
+                  <h1 className="text-center my-3 text-secondary">
+                    Welcome To Yooda Hostel Student & Food Management App
+                  </h1>
                   <Outlet />
                 </div>
               </div>
